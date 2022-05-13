@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quadro{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    max-width: 100%;
+    height: 10%;
+    margin: 5px;
+}
+
+.link{
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.foto{
+    padding: 5px;
+}
+
+
+.minha-foto{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.text-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-perfil{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-perfil{
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.subcaixa-perfil{
+    font-size: small;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.social{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+}
+
+.button-social{
+    border-style: none;
+    background: none;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.button-social:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.icone-social{
+    width: 15px;
+    height: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("backgrounds/img2.jpg");
+}
+
+.barra{
+    width: 100%;
+    height: 20%;
+}
+
+.content{
+    background-image: url("backgrounds/4519290-fundo-gradiente-marrom-claro-e-marrom-escuro-grátis-foto.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.painel{
+    padding: 5px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 80%;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
+
+.livros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.livro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.livro-img{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.livro-img:hover{
+    transform: scale(1.05);
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filme{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filme-img{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.filme-img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
